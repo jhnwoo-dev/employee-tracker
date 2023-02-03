@@ -84,7 +84,7 @@ const addEmployee = () => {
             for (let i = 0; i < data.length; i++) {
                 roleList.push(data[i].title);
             }
-            // console.log(roleList);
+
         }
     });
 
@@ -194,7 +194,6 @@ const updateEmployee = () => {
             for (let i = 0; i < data.length; i++) {
                 employeeList.push(data[i].first_name);
             }
-            // console.log(employeeList);
         }
     });
     inquirer
@@ -251,7 +250,6 @@ const addRole = () => {
             for (let i = 0; i < data.length; i++) {
                 departmentList.push(data[i].name);
             }
-            // console.log(departmentList);
         }
     });
     inquirer
