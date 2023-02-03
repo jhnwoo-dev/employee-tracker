@@ -99,7 +99,6 @@ const addEmployee = () => {
                 for (let i = 0; i < data.length; i++) {
                     managerList.push(data[i].first_name);
                 }
-                // console.log(managerList);
             }
         }
     );
@@ -184,7 +183,6 @@ const updateEmployee = () => {
             for (let i = 0; i < data.length; i++) {
                 roleList.push(data[i].title);
             }
-            // console.log(roleList);
         }
     });
 
