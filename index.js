@@ -84,12 +84,11 @@ const addEmployee = () => {
             for (let i = 0; i < data.length; i++) {
                 roleList.push(data[i].title);
             }
-
         }
     });
 
     let managerList = [];
-    managerList.push("null");
+    managerList.push("Null");
     db.query(
         "SELECT first_name FROM employee JOIN role ON employee.role_id = role.id WHERE role.title IN('Sales Lead','Lead Engineer','Account Manager', 'Legal Team Lead')",
         (err, data) => {
