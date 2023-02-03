@@ -39,11 +39,9 @@ const start = () => {
                 case 2:
                     addEmployee();
                     break;
-
                 case 3:
                     updateEmployee();
                     break;
-
                 case 4:
                     viewAllRoles();
                     break;
